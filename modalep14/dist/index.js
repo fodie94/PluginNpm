@@ -4,17 +4,17 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "Input", {
-  enumerable: true,
-  get: function () {
-    return _Input.default;
-  }
-});
 Object.defineProperty(exports, "Modale", {
   enumerable: true,
   get: function () {
     return _Modale.default;
   }
 });
+Object.defineProperty(exports, "Modale2", {
+  enumerable: true,
+  get: function () {
+    return _Modale2.default;
+  }
+});
 var _Modale = _interopRequireDefault(require("./components/Modale"));
-var _Input = _interopRequireDefault(require("./components/Input"));
+var _Modale2 = _interopRequireDefault(require("./components/Modale2"));

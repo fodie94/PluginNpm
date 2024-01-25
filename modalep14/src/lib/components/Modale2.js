@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 
 const Modale2 = () => {
   return (
