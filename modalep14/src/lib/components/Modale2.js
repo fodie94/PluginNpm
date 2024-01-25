@@ -8,13 +8,11 @@ const Modale2 = ({ visible, onClose }) => {
   };
 
   return (
-    <div id="confirmation">
-      {visible && (
-        <div className="modal">
-          <p>Employee Created!</p>
-          <span onClick={closeModal}>X</span>
-        </div>
-      )}
+    <div id="confirmation" style={{ display: visible ? "block" : "none" }}>
+      <div className="modal">
+        <p>Employee Created!</p>
+        <span onClick={closeModal}>X</span>
+      </div>
     </div>
   );
 };

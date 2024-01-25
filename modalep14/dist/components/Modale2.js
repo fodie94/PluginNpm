@@ -1,20 +1,25 @@
 "use strict";
 
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard").default;
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault").default;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _react = _interopRequireWildcard(require("react"));
+var _react = _interopRequireDefault(require("react"));
 require("./Modale2.css");
-const Modale2 = () => {
-  const [modalVisible, setModalVisible] = (0, _react.useState)(true);
+// Modale2.js
+
+const Modale2 = _ref => {
+  let {
+    visible,
+    onClose
+  } = _ref;
   const closeModal = () => {
-    setModalVisible(false);
+    onClose();
   };
   return /*#__PURE__*/_react.default.createElement("div", {
     id: "confirmation"
-  }, modalVisible && /*#__PURE__*/_react.default.createElement("div", {
+  }, visible && /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"
   }, /*#__PURE__*/_react.default.createElement("p", null, "Employee Created!"), /*#__PURE__*/_react.default.createElement("span", {
     onClick: closeModal
