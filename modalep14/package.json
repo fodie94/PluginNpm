@@ -1,5 +1,5 @@
 {
-  "name": "modalep14",
+  "name": "@fodieniakate/modalep14",
   "description": "Ce que fait le super projet en cours",
   "main": "dist/index.js",
   "files": [
@@ -32,5 +32,7 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "version": "0.0.1",
+  "private": false
 }
