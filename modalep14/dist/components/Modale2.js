@@ -18,8 +18,11 @@ const Modale2 = _ref => {
     onClose();
   };
   return /*#__PURE__*/_react.default.createElement("div", {
-    id: "confirmation"
-  }, visible && /*#__PURE__*/_react.default.createElement("div", {
+    id: "confirmation",
+    style: {
+      display: visible ? "block" : "none"
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"
   }, /*#__PURE__*/_react.default.createElement("p", null, "Employee Created!"), /*#__PURE__*/_react.default.createElement("span", {
     onClick: closeModal
