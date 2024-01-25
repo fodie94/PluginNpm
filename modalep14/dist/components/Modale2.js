@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-require("./index.css");
 const Modale2 = () => {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"

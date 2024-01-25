@@ -1,0 +1,26 @@
+#confirmation {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid; */
+  /* width: 50%; */
+  top: 50%;
+  width: 100%;
+  height: 50px;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  border: 2px solid;
+  color: white;
+  width: 70%;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+#department {
+  margin-bottom: 10px;
+}
