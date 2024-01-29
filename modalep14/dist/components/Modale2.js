@@ -20,7 +20,7 @@ const Modale2 = _ref => {
   return /*#__PURE__*/_react.default.createElement("div", {
     id: "confirmation",
     style: {
-      display: visible ? "block" : "none"
+      display: visible ? "flex" : "none"
     }
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"

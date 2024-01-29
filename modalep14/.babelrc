@@ -1,7 +1,4 @@
 {
-  "presets": [
-    "@babel/preset-react",
-    ["react-app", { "absoluteRuntime": false }]
-  ],
+  "presets": [["react-app", { "absoluteRuntime": false }]],
   "plugins": ["@babel/plugin-syntax-jsx"]
 }

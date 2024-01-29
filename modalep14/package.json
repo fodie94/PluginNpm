@@ -18,10 +18,10 @@
     "clean:fix": "rm -rf node_modules coverage build dist docs package-lock.json"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.4",
-    "@babel/core": "^7.23.7",
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
     "@babel/plugin-syntax-jsx": "^7.23.3",
-    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.23.3",
     "babel-preset-react-app": "^10.0.1",
     "react": "^18.2.0",
@@ -33,6 +33,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false
 }
