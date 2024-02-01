@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Migration d'une application jQuery vers React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-303540?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-## Available Scripts
+## Présentation
 
-In the project directory, you can run:
+![SNAPSHOT](/src/lib/assets/modal.png "Titre de l'image")
 
-### `npm start`
+- repository : https://github.com/fodie94/PluginNpm.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- package npm : https://www.npmjs.com/package/@fodieniakate/modalep14
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installing the package
 
-### `npm test`
+### 1/ Install package :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm i @fodieniakate/modalep14`
 
-### `npm run build`
+### 2/ Import the component from the library :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`import { Modale2 } from "@fodieniakate/modalep14";`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prérequis
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![npm](https://img.shields.io/badge/npm-9.1.3-%23000000?style=flat-square&logo=npm&logoColor=white)
 
-### `npm run eject`
+![Node.js](https://img.shields.io/badge/Node.js-16.14.0-43853D?style=flat-square&logo=node.js&logoColor=white)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dépendances
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![react](https://img.shields.io/badge/react-%5E18.2.0-blue)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![react-dom](https://img.shields.io/badge/react-dom-%5E18.2.0-blue)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![@babel/cli](https://img.shields.io/badge/@babel/cli-%5E7.23.9-blue)
 
-## Learn More
+![@babel/core](https://img.shields.io/badge/@babel/core-%5E7.23.9-blue)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![@babel/plugin-syntax-jsx](https://img.shields.io/badge/@babel/plugin-syntax-jsx-%5E7.23.3-blue)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![@babel/preset-react](https://img.shields.io/badge/@babel/@babel/preset-react-%5E7.23.3-blue)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![@fodieniakate/modalep14](https://img.shields.io/badge/@fodieniakate/modalep14-%5E0.0.9-blue)
