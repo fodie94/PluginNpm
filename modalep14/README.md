@@ -7,7 +7,7 @@
 
 ## Présentation
 
-![SNAPSHOT](/src/lib/assets/modal.png "Titre de l'image")
+![SNAPSHOT](../modalep14/src/lib/assets/modal.png "Titre de l'image")
 
 - repository : https://github.com/fodie94/PluginNpm.git
 
