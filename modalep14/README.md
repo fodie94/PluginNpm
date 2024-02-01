@@ -23,6 +23,33 @@
 
 `import { Modale2 } from "@fodieniakate/modalep14";`
 
+### 3/ Place this state hook (concerning the opening/closing of the modal) at the start of the function that uses the Modal component :
+
+`const [isOpen, setIsOpen] = useState(false)`
+
+### 4/ In the return of the function, call the Modal component with at least the `setIsOpen` and `text` props :
+
+`{isOpen && <Modal setIsOpen={setIsOpen} text={'Hello ' + name} />}`
+
+### 5/ Example :
+
+```js
+import React, { useState } from "react";
+import { Modale2 } from "@fodieniakate/modalep14";
+
+export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <>
+      <h1>Modal Test</h1>
+      <button onClick={() => setIsOpen(true)}>Open Modal</button>
+      {isOpen && <Modal setIsOpen={setIsOpen} />}
+    </>
+  );
+}
+```
+
 ## Prérequis
 
 ![npm](https://img.shields.io/badge/npm-9.1.3-%23000000?style=flat-square&logo=npm&logoColor=white)
