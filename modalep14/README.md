@@ -41,6 +41,6 @@
 
 ![@babel/plugin-syntax-jsx](https://img.shields.io/badge/@babel/plugin-syntax-jsx-%5E7.23.3-blue)
 
-![@babel/preset-react](https://img.shields.io/badge/@babel/@babel/preset-react-%5E7.23.3-blue)
+![@babel/preset-react](https://img.shields.io/badge/@babel/preset-react-%5E7.23.3-blue)
 
 ![@fodieniakate/modalep14](https://img.shields.io/badge/@fodieniakate/modalep14-%5E0.0.9-blue)
