@@ -54,7 +54,7 @@ export default function Home() {
 
 ![npm](https://img.shields.io/badge/npm-9.1.3-%23000000?style=flat-square&logo=npm&logoColor=white)
 
-![Node.js](https://img.shields.io/badge/Node.js-16.14.0-43853D?style=flat-square&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-18.17.0-43853D?style=flat-square&logo=node.js&logoColor=white)
 
 ## Dépendances
 
@@ -70,4 +70,4 @@ export default function Home() {
 
 ![@babel/preset-react](https://img.shields.io/badge/@babel/preset-react-%5E7.23.3-blue)
 
-![@fodieniakate/modalep14](https://img.shields.io/badge/@fodieniakate/modalep14-%5E0.0.9-blue)
+![@fodieniakate/modalep14](https://img.shields.io/badge/@fodieniakate/modalep14-%5E0.0.10-blue)
