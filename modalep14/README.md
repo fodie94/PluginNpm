@@ -27,7 +27,7 @@
 
 `const [isOpen, setIsOpen] = useState(false)`
 
-### 4/ In the return of the function, call the Modal component with at least the `setIsOpen` and `text` props :
+### 4/ In the return of the function, call the Modal component with at least the `setIsOpen`:
 
 `{isOpen && <Modal setIsOpen={setIsOpen}  />}`
 
