@@ -60,14 +60,8 @@ export default function Home() {
 
 ![react](https://img.shields.io/badge/react-%5E18.2.0-blue)
 
-![react-dom](https://img.shields.io/badge/react-dom-%5E18.2.0-blue)
-
 ![@babel/cli](https://img.shields.io/badge/@babel/cli-%5E7.23.9-blue)
 
 ![@babel/core](https://img.shields.io/badge/@babel/core-%5E7.23.9-blue)
-
-![@babel/plugin-syntax-jsx](https://img.shields.io/badge/@babel/plugin-syntax-jsx-%5E7.23.3-blue)
-
-![@babel/preset-react](https://img.shields.io/badge/@babel/preset-react-%5E7.23.3-blue)
 
 ![@fodieniakate/modalep14](https://img.shields.io/badge/@fodieniakate/modalep14-%5E0.0.10-blue)
