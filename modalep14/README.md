@@ -29,7 +29,7 @@
 
 ### 4/ In the return of the function, call the Modal component with at least the `setIsOpen` and `text` props :
 
-`{isOpen && <Modal setIsOpen={setIsOpen} text={'Hello ' + name} />}`
+`{isOpen && <Modal setIsOpen={setIsOpen}  />}`
 
 ### 5/ Example :
 
