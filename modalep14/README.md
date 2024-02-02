@@ -44,7 +44,7 @@ export default function Home() {
     <>
       <h1>Modal Test</h1>
       <button onClick={() => setIsOpen(true)}>Open Modal</button>
-      {isOpen && <Modal setIsOpen={setIsOpen} />}
+      {isOpen && <Modale2 setIsOpen={setIsOpen} />}
     </>
   );
 }
